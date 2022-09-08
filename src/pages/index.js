@@ -121,6 +121,7 @@ p:nth-of-type(2n) {
 }
 a {
     margin: auto;
+    color: white;
 }
 button {
     margin: auto;
@@ -182,7 +183,7 @@ const IndexPage = () => {
                     </LogoOver>
                     <div className="herotext">
                         <p>Glacier International is a one-stop shop for importing, right hand drive re-manufacturing, and customising your Toyota Sequoia or Tundra. With cutting edge technology, the 2023 Toyota Sequoia and Tundra are meticulously engineered luxury hybrid machines, and our goal is to deliver them to Kiwis who value reliability, performance and class over anything else. </p>
-                        <p>New Website Coming soon - For any questions about our right hand drive 2023 Sequoia or Tundra packages please email sales@glacier.nz</p>
+                        <p>New Website Coming soon - For any questions about our Sequoia or Tundra packages please email <a href="mailto:sales@glacier.nz">sales@glacier.nz</a></p>
                     </div>
                     </div>
                 </CenterContent>
